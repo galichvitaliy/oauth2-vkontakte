@@ -11,7 +11,7 @@ class Vkontakte extends AbstractProvider
 {
     protected $baseOAuthUri = 'https://oauth.vk.com';
     protected $baseUri      = 'https://api.vk.com/method';
-    protected $version      = '5.52';
+    protected $version      = '5.131';
     protected $language     = null;
 
     /**
@@ -118,6 +118,16 @@ class Vkontakte extends AbstractProvider
     public function setLanguage($language)
     {
         $this->language = (string)$language;
+
+        return $this;
+    }
+
+    /**
+     * @param string $version
+     */
+    public function setVersion($version)
+    {
+        $this->version = (string)$version;
 
         return $this;
     }
