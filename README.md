@@ -1,15 +1,11 @@
 # Vkontakte OAuth2 client provider
 
-[![Build Status](https://travis-ci.com/zablik/oauth2-vkontakte.svg?branch=master)](https://travis-ci.com/zablik/oauth2-vkontakte)
-[![Latest Stable Version](https://img.shields.io/packagist/v/zablik/oauth2-vkontakte.svg)](https://packagist.org/packages/zablik/oauth2-vkontakte)
-[![License](https://img.shields.io/packagist/l/zablik/oauth2-vkontakte.svg)](https://packagist.org/packages/zablik/oauth2-vkontakte)
-
 This package provides [Vkontakte](https://vk.com) integration for [OAuth2 Client](https://github.com/thephpleague/oauth2-client) by the League.
 
 ## Installation
 
 ```sh
-composer require zablik/oauth2-vkontakte
+composer require galichvitaliy/oauth2-vkontakte
 ```
 ## Versions
 
